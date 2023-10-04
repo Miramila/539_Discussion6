@@ -75,7 +75,9 @@ h1, h2, h3{
 
 .grid div{
     /* Set border properties, padding, and background color */
-
+    border-radius: 25px;
+    padding: 10px;
+    background-color: antiquewhite;
 }
 
 .grid img{
@@ -87,26 +89,35 @@ h1, h2, h3{
 
 .grid div:nth-child(3n+1)  {
     /* Set box shadow */
+    box-shadow: -10px 0px 5px rgb(167, 159, 147);
     }
 
 .grid div:nth-child(3n)  {
     /* Set box shadow */ 
+    box-shadow: 10px 0px 5px rgb(167, 159, 147);
 }
 
 .grid div:nth-child(3n+2)  {
      /* Set box shadow */
+     box-shadow: -10px 0px 5px rgb(167, 159, 147), 10px 0px 5px rgb(167, 159, 147);
 }
     
 
 p + p {
      /* Set indentation */
+        text-indent: 10px;
   }
   
 p{
      /* Set margin */
+     margin-top: 10px;
 }
 
 
 .grid ul li{
     /* Set margin, line-spacing, list styling  */
+    line-height: 100%;
+    list-style-image: url('../images/sketchbook.png');
+    margin-left:10px;
+    margin-bottom: 10px;
 }
